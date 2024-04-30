@@ -1,0 +1,42 @@
+.status-badge {
+    margin: 4px 8px;
+    padding: 4px 12px;
+    border-radius: 35px;
+    font-weight: 400;
+    border-width: 1px;
+    border-style: solid;
+    width: fit-content;
+}
+
+.status-wip {
+    border-color: #fcc100;
+    color: #fcc100;
+    background-color: #fcc10010;
+}
+.status-review {
+    border-color: #ff7b00;
+    color: #ff7b00;
+    background-color: #ff7b0010;
+}
+.status-feedback {
+    border-color: #d41111;
+    color: #d41111;
+    background-color: #d4111110;
+}
+.status-approved {
+    border-color: #238626;
+    color: #238626;
+    background-color: #23862610;
+}
+.status-feedback {
+    border-color: #ff0000;
+    color: #ff0000;
+    background-color: #ff000010;
+}
+
+.warning-badge {
+    font-weight: 600;
+    color: #ff0000;
+    width: fit-content;
+    margin-top: 12px !important;
+}
